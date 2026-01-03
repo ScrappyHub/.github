@@ -1,0 +1,24 @@
+name: Feature request
+description: Propose a feature
+title: "[feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should happen?
+    validations:
+      required: true
+  - type: textarea
+    id: governance
+    attributes:
+      label: Governance impact
+      description: Which governance files/laws does this touch? If none, say NONE.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: Safety, misuse, integrity, privacy, power expansion risks.
